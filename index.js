@@ -30,7 +30,7 @@ io.on('connection',(socket)=>{
     });
 
     socket.on('disconnect',(data)=>{
-        socket.broadcast.emit('user-left',`${users[socket.id]} has left 🤡`);
+        socket.broadcast.emit('user-left',`${users[socket.id]} has left `);
         delete users[socket.id];
     })
 })
