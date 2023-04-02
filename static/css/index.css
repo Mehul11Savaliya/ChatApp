@@ -1,0 +1,31 @@
+.server{
+    float: left;
+    clear: both;
+    padding: 3px;
+    margin-left: 5px;
+    border: 1px solid black;
+    color: white;
+    max-width: 45vw;
+    background-color: rgb(117, 100, 100);
+    margin-top: 4px;
+  }
+  .client{
+    float: right;
+    clear: both;
+    padding: 3px;
+    margin-right: 5px;
+    border: 1px solid black;
+    color: white;
+    max-width: 45vw;
+    background-color: rgb(117, 100, 100);
+    margin-top: 4px;
+  }
+
+  .cntrl{
+    margin: 5px auto;
+    position: sticky;
+    top: 100%;
+  }
+  #msg{
+    width: 50vw;
+  }
